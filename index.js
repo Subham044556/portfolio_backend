@@ -5,6 +5,8 @@ import { Message } from "./src/models/message.model.js";
 import connectDB from "./src/db/db.js";
 import dotenv from "dotenv"
 
+import contactRoutes from "./src/routes/contact.js";
+
 
 dotenv.config({
     path:'./.env'
